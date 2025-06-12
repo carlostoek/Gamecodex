@@ -1,4 +1,5 @@
 """Database related modules."""
+"""Database related modules"""
 
 from .db import init_db, add_user
 
