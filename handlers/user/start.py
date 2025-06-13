@@ -27,6 +27,7 @@ async def cmd_start(message: Message) -> None:
         add_user,
         message.from_user.id,
         message.from_user.username,
+        message.from_user.full_name,
         join_date,
     )
 
